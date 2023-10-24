@@ -1,0 +1,110 @@
+/*
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+*/
+
+body {
+  border: 1px solid orange;
+  /*margin: 2%;*/
+}
+
+header {
+  border: 1px solid orange;
+  position: absolute;
+  left: 50%;
+  transform: translate(-51%, 0%);
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+}
+
+.subheading {
+  border: 1px solid orange;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.container {
+  position: absolute;
+  bottom: 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+  height: 50%;
+  text-align: center;
+}
+
+.click-a {
+  background-color: white;
+  border: 1px solid orange;
+  width: 35%;
+  font-size: 170%;
+  padding: 3%;
+}
+
+.click-b {
+  background-color: white;
+  border: 1px solid orange;
+  width: 35%;
+  font-size: 170%;
+  padding: 3%;
+}
+
+.click-c {
+  background-color: white;
+  border: 1px solid orange;
+  width: 35%;
+  font-size: 170%;
+  padding: 3%;
+}
+
+.hide-result-a {
+  background-color: cornflowerblue;
+  color: white;
+  width: 45%;
+  font-size: 130%;
+  padding: 2%;
+}
+
+.hide-result-b {
+  background-color: cornflowerblue;
+  color: white;
+  width: 45%;
+  font-size: 130%;
+  padding: 2%;
+}
+
+.hide-result-c {
+  background-color: cornflowerblue;
+  color: white;
+  width: 45%;
+  font-size: 130%;
+  padding: 2%;
+}
+
+/*initialize divs to be hidden, revealed after button clicks*/
+.display-a {
+  display: none;
+  text-align: center;
+}
+
+.display-b {
+  display: none;
+  text-align: center;
+}
+
+.display-c {
+  display: none;
+  text-align: center;
+}
